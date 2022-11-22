@@ -1,0 +1,13 @@
+**/*.pyc
+build/
+dist/
+scorelisto.egg-info/
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
+api_manage_users/migrations/*
+!api_manage_users/migrations/__init__.py
+api_manage_parameters/migrations/*
+!api_manage_parameters/migrations/__init__.py
+api_manage_projects/migrations/*
+!api_manage_projects/migrations/__init__.py

@@ -1,0 +1,1537 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-12-17T10:52:19.769Z",
+	"__export_source": "insomnia.desktop.app:v6.3.1",
+	"resources": [
+		{
+			"_id": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"created": 1542635963819,
+			"description": "",
+			"modified": 1542792527725,
+			"name": "martindej",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_f92386ea719f421c83f6a6e15ee208d6",
+			"created": 1542635965089,
+			"description": "",
+			"modified": 1542635965089,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_8b2dda61066240aa915f5c1146842793",
+			"created": 1542792201954,
+			"description": "",
+			"modified": 1542792201954,
+			"name": "My Workspace",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_d76241184d544a5b989b5836d1f75d53",
+			"color": null,
+			"created": 1542635963860,
+			"data": {
+				"base_url": "http://127.0.0.1:8000",
+				"client_id": "Ox6fGyhvY39MpuQcKc9MJd0SJcIs4kBLbDH4qoIu",
+				"client_secret": "pVo4dYr3elkTbmTV6C4CFHugQ08HaH2y13YFky2zrbVc2m0q2QQq9jPFUpAyssS3eSK0VvX1v4EAnQL0iiOUFj2OWEud2yq1VC1JwM5urvgnWmjhelKwdPBrjVrTS4xl"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1542635963860,
+			"modified": 1543397604357,
+			"name": "New Environment",
+			"parentId": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_c78818b713864ad9a0779590e0fe96e5",
+			"cookies": [
+				{
+					"domain": "{{ base_url  }}",
+					"httpOnly": false,
+					"id": "f858d463-cdc1-4e59-91c9-5bb640f6680e",
+					"key": "",
+					"path": "/user/authentication/token/",
+					"secure": false,
+					"value": "access_token"
+				}
+			],
+			"created": 1542635963864,
+			"modified": 1545039269991,
+			"name": "Default Jar",
+			"parentId": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"created": 1542641631935,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542641631935,
+			"modified": 1542641631935,
+			"name": "Manage User",
+			"parentId": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_396ffb428a434db3bda522c309945579",
+			"created": 1542720675240,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385819,
+			"modified": 1542720681525,
+			"name": "Manage Parameter",
+			"parentId": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"created": 1543397759573,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385769,
+			"modified": 1543397762392,
+			"name": "Manage Project",
+			"parentId": "wrk_e766bcc447de443da0468f3d4fd27b26",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_829063d9fbd4493994b39d0ddb4b453a",
+			"color": null,
+			"created": 1542635965133,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1542635965133,
+			"modified": 1542635965133,
+			"name": "New Environment",
+			"parentId": "wrk_f92386ea719f421c83f6a6e15ee208d6",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_12ac72557e994e5a89966c3f5fa3c514",
+			"cookies": [],
+			"created": 1542635965135,
+			"modified": 1542635965135,
+			"name": "Default Jar",
+			"parentId": "wrk_f92386ea719f421c83f6a6e15ee208d6",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "env_ea4e1258b51347569b5efbed7d9b7521",
+			"color": null,
+			"created": 1542792202053,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1542792202053,
+			"modified": 1542792202053,
+			"name": "New Environment",
+			"parentId": "wrk_8b2dda61066240aa915f5c1146842793",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_41dbc0f24dad497099c4616aeafacab7",
+			"cookies": [],
+			"created": 1542792202056,
+			"modified": 1542792202056,
+			"name": "Default Jar",
+			"parentId": "wrk_8b2dda61066240aa915f5c1146842793",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "env_3e0545208bed403b9aec17afac77c26b",
+			"color": null,
+			"created": 1542792549367,
+			"data": {
+				"bearer": "rWxPFmgCos3yfECb4c1lszZUo9AiKj",
+				"email": "nicoleblond_81@hotmail.fr",
+				"password": "yoyoyo81",
+				"username": "martindej"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1542792549367,
+			"modified": 1545039189037,
+			"name": "martindej",
+			"parentId": "env_d76241184d544a5b989b5836d1f75d53",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_aecdbb8f033f4ad08658c0ad173e3ee3",
+			"color": null,
+			"created": 1542792671109,
+			"data": {
+				"bearer": "oyysIJmi16Pci4VCR66LUrpuUHrv6b",
+				"email": "nicolas.dejax@live.fr",
+				"password": "20claramorgane06",
+				"username": "ndejax"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1542792671109,
+			"modified": 1543416298772,
+			"name": "ndejax",
+			"parentId": "env_d76241184d544a5b989b5836d1f75d53",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_928c109c50c348f8ba5af68fdeac7a8f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"username\": \"{{ username  }}\",\n  \"email\": \"{{ email  }}\",\n  \"password\": \"{{ password  }}\"\n}"
+			},
+			"created": 1542636385919,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_88c77dcff99e483ab859a4552b23b4ac",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636386019,
+			"method": "POST",
+			"modified": 1544799104355,
+			"name": "Create New User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/register/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_94d49be52e594ac0a9e3ad95a1af5dbd",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"uidb64\": \"NA\",\n  \"token\": \"521-fa241d769e48616bbe25\"\n}"
+			},
+			"created": 1542638048623,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0f6fb7dd185e4fa38df30da8e84618d4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385969,
+			"method": "POST",
+			"modified": 1544537382063,
+			"name": "Activate New User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/activate/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7d398e11114e4ca2a45c8e1a645282ce",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"password\" : \"{{ password  }}\"\n}"
+			},
+			"created": 1542642873419,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b07a4d74458b46ed9cd2f4c690b3ffd5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385919,
+			"method": "POST",
+			"modified": 1544537050804,
+			"name": "Delete User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/delete/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ac92b9cc8d594e479115679a3df2fe96",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"grant_type\" : \"password\" ,\n\t\"client_id\" : \"{{ client_id  }}\",\n\t\"client_secret\" : \"{{ client_secret  }}\",\n\t\"username\" : \"{{ username  }}\",\n\t\"password\" : \"{{ password  }}\"\n}"
+			},
+			"created": 1542642919690,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5bb9924c766147ba9dc9285d43e4e68d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385944,
+			"method": "POST",
+			"modified": 1544799105268,
+			"name": "Get Token User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/authentication/token/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f2daeafa493e437aa003b26c7ac13808",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"client_id\" : \"{{ client_id  }}\",\n\t\"client_secret\" : \"{{ client_secret  }}\",\n\t\"token\": \"RAncUavjWs0c3L2z6n4J6sypjJFlpP\"\n}"
+			},
+			"created": 1542705168259,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0c97e26fc40540a7bff9af5bbbb837f9",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385931.5,
+			"method": "POST",
+			"modified": 1544522672737,
+			"name": "Revoke Token User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/authentication/revoke-token/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_995d1a5cafe741e6b7bb0f69d54ebafa",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"grant_type\" : \"refresh_token\" ,\n\t\"client_id\" : \"{{ client_id  }}\",\n\t\"client_secret\" : \"{{ client_secret  }}\",\n\t\"refresh_token\" : \"OVfZSRog4bfHGFA0dzz4hezMNsOhRZ\"\n}"
+			},
+			"created": 1542719158505,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_062efc59b9df45fc99c927a7f813121e",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385937.75,
+			"method": "POST",
+			"modified": 1544522890922,
+			"name": "Refresh Token User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/authentication/token/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dc291e96622245a792e6c0dc90c9873e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\" : \"nicoleblond_81@hotmail.fr\"\n}"
+			},
+			"created": 1542720878398,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8be07a274645443b9f2b74ebe270e8b9",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385869,
+			"method": "POST",
+			"modified": 1544536995901,
+			"name": "Reset Password User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/reset_password/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e177f6356f114828ba01d220e550ceaa",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"uidb64\" : \"NA\",\n\t\"token\" : \"521-dd86543bb71fccccd32c\",\n\t\"new_password\" : \"yoyoyo81\"\n}"
+			},
+			"created": 1542721031427,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1a98475291d34364a7632fdfb58e6413",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385819,
+			"method": "POST",
+			"modified": 1544522752478,
+			"name": "Set New Password User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/set_new_password",
+			"_type": "request"
+		},
+		{
+			"_id": "req_25d58b8a080a48dab3882aaac7f0fb0b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\" : \"nicoleblond_81@hotmail.fr\"\n}"
+			},
+			"created": 1544536983955,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b07a4d74458b46ed9cd2f4c690b3ffd5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385894,
+			"method": "POST",
+			"modified": 1544537102584,
+			"name": "Restore User",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/restore/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_85e6cb89885f4c19a6f51252df889d3d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"email\": \"{{ email  }}\"\n}"
+			},
+			"created": 1544537265848,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_88c77dcff99e483ab859a4552b23b4ac",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385994,
+			"method": "POST",
+			"modified": 1544537295213,
+			"name": "Send again Activation email",
+			"parameters": [],
+			"parentId": "fld_32dff5b218754cbdb2eba6a95ab80425",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/user/register/retry",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"created": 1542726461749,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385919,
+			"modified": 1542726465298,
+			"name": "Global Parameter",
+			"parentId": "fld_396ffb428a434db3bda522c309945579",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"created": 1542726483613,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385881.5,
+			"modified": 1542726488861,
+			"name": "Pitch Detection Parameter",
+			"parentId": "fld_396ffb428a434db3bda522c309945579",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"created": 1542726498813,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385862.75,
+			"modified": 1542726504539,
+			"name": "Step Detection Parameter",
+			"parentId": "fld_396ffb428a434db3bda522c309945579",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"created": 1542726516333,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1542636385853.375,
+			"modified": 1542726519133,
+			"name": "Rythm Detection Parameter",
+			"parentId": "fld_396ffb428a434db3bda522c309945579",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_159e2a3c532b4805a600603a4d2bf7de",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1543397778485,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385719,
+			"method": "GET",
+			"modified": 1544801292845,
+			"name": "Get List of Projects",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c37b26a04e2b48f9bc84a97aaa24e193",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/ndejax/work/scorelisto/dev/python/test/sifflement1bis.wav",
+						"id": "pair_eaa5dbe235a54be18e58ab754e563841",
+						"name": "audiofile",
+						"type": "file",
+						"value": ""
+					},
+					{
+						"id": "pair_d0caa71ec94a45abb22d2077ea9f5f02",
+						"name": "name",
+						"value": "poule3"
+					}
+				]
+			},
+			"created": 1543397841736,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_82ec1992492940019abc78119ee73237",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"id": "pair_dd5da31b15e14962a5bcbd3d797bda6c",
+					"name": "",
+					"value": ""
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385669,
+			"method": "POST",
+			"modified": 1545039830743,
+			"name": "Create a New Project",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_14ae490a15d24c4b8fcc4e738f4ec61e",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1543398820814,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385619,
+			"method": "GET",
+			"modified": 1544539826370,
+			"name": "Get Info of A Project",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/37",
+			"_type": "request"
+		},
+		{
+			"_id": "req_56821906d05441ffbc34dc5060a42608",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1543398903620,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385569,
+			"method": "DELETE",
+			"modified": 1544782482027,
+			"name": "Delete A Project",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/41",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bac5ccf273154365906f5821b560f3f5",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"kikou\"\n}"
+			},
+			"created": 1543398930779,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0544258f04ca4f9dbe82ed17ef9ca193",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385519,
+			"method": "PUT",
+			"modified": 1543416347778,
+			"name": "Modify A Project",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/22/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_13e49c788b9243ea84967cd04b065a4f",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"filetype\": \"pitch\"\n}"
+			},
+			"created": 1543479718250,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385469,
+			"method": "GET",
+			"modified": 1544799001761,
+			"name": "Download a Pitch txt file",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/36/download",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3f3dbbd2498a403e9fcaaaab43454a1e",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n    \"windowtimesize_s\": 20e-3,\n    \"sonogramperiod_s\": 1e-3,\n    \"f0_hz\": 32.7032,\n    \"freqmin_hz\": 80.0,\n    \"freqmax_hz\": 5000.0,\n    \"cutoff\": 0.97,\n    \"smallcutoff\": 0.5\n}"
+			},
+			"created": 1543505214823,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385419,
+			"method": "POST",
+			"modified": 1545039852394,
+			"name": "Run a Pitch Detection",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/44/runpitchdetection",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c9c8b7fe28074e1faf349ba89654300f",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n    \"medianfiltersize_s\": 51e-3,\n    \"thresholdenergyon_db\": 25.0,\n    \"thresholdenergyoff_db\": 30.0,\n    \"maxpitchvariation_st\": 1.0,\n    \"minimumtimesize_s\": 50e-3,\n    \"minnotesize_s\": 100e-3,\n    \"minnotediff_st\": 0.5,\n    \"lmhgaussian_st\": 0.5\n}"
+			},
+			"created": 1543914537686,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385369,
+			"method": "POST",
+			"modified": 1544799042171,
+			"name": "Run a Step Detection",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/38/runstepdetection",
+			"_type": "request"
+		},
+		{
+			"_id": "req_55692410f72043dd89b1ef611387ac16",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n    \"delaymin_s\": 0.3,\n    \"delaymax_s\": 1.5,\n    \"maxdelayvar\": 1.0,\n    \"errormax\": 10.0,\n    \"onenoteonebeat\": true,\n    \"onenotetwobeat\": true,\n    \"onenotethreebeat\": true,\n    \"onenotefourbeat\": true,\n    \"onenotefivebeat\": true,\n    \"onenotesixbeat\": true,\n    \"onenotesevenbeat\": true,\n    \"onenoteeightbeat\": true,\n    \"onerestonebeat\": true,\n    \"oneresttwobeat\": true,\n    \"onerestthreebeat\": true,\n    \"onerestfourbeat\": true,\n    \"onerestfivebeat\": true,\n    \"onerestsixbeat\": true,\n    \"onerestsevenbeat\": true,\n    \"oneresteightbeat\": true,\n    \"en_en\": true,\n    \"er_en\": true,\n    \"en_er\": true,\n    \"den_sn\": true,\n    \"sn_den\": true,\n    \"dqn_en\": true,\n    \"qr_er_en\": true,\n    \"dqn_er\": true,\n    \"en_en_qn\": true,\n    \"qn_dqn_en\": true,\n    \"qr_qr_er_en\": true,\n    \"qn_dqn_er\": true,\n    \"en_en_hn\": true,\n    \"hn_dqn_en\": true,\n    \"qr_qr_qr_er_en\": true,\n    \"hn_dqn_er\": true,\n    \"en_en_dhn\": true,\n    \"en_sn_sn\": true,\n    \"er_sn_sn\": true,\n    \"sn_sn_en\": true,\n    \"sn_sn_er\": true,\n    \"sn_en_sn\": true,\n    \"t_en_en_en\": true,\n    \"t_en_den_sn\": true,\n    \"t_en_sn_den\": true,\n    \"t_sn_en_den\": true,\n    \"t_sn_den_en\": true,\n    \"t_den_en_sn\": true,\n    \"t_den_sn_en\": true,\n    \"en_qn_en\": true,\n    \"dqn_sn_sn\": true,\n    \"qn_dqn_sn_sn\": true,\n    \"hn_dqn_sn_sn\": true,\n    \"sn_sn_sn_sn\": true\n}"
+			},
+			"created": 1543914539948,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385319,
+			"method": "POST",
+			"modified": 1544714913494,
+			"name": "Run a Rythm Detection",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/38/runrythmdetection",
+			"_type": "request"
+		},
+		{
+			"_id": "req_038619a149224ac5907a2d9709835bb5",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"namepitchdetectionparam\": \"default\",\n\t\"namestepdetectionparam\": \"default\",\n\t\"namerythmdetectionparam\" : \"default\"\n}"
+			},
+			"created": 1543914542257,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385269,
+			"method": "POST",
+			"modified": 1544720019436,
+			"name": "Run a Direct Conversion",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/38/rundirectconversion",
+			"_type": "request"
+		},
+		{
+			"_id": "req_05bbd47d14c44590bfb507cedcdc712a",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"task_id\": \"7f117d1c-7b82-4626-9ce9-0df3051db149\"\n}"
+			},
+			"created": 1544716565798,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_70a2de0f44c34ef9aa4428e1579eadab",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385219,
+			"method": "GET",
+			"modified": 1545042784613,
+			"name": "Check process state",
+			"parameters": [],
+			"parentId": "fld_cc40d85ebf1446df89f3631b6acd8554",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/project/checkstateprocess",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dcf5a98d3f334bc4864be3bcdba0798d",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542636597309,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385869,
+			"method": "GET",
+			"modified": 1544522914206,
+			"name": "Get List Global Parameters",
+			"parameters": [],
+			"parentId": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/global/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_05f451e5f1a747d6b779acbcba1f43d5",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"nouveau\",\n  \"namepitchdetectionparam\": \"default\",\n  \"namestepdetectionparam\": \"default\",\n  \"namerythmdetectionparam\": \"default\"\n}"
+			},
+			"created": 1542722907449,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_688eb16a5aa34b92857d9d594edc9f62",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385719,
+			"method": "POST",
+			"modified": 1544200444478,
+			"name": "Create New Global Parameter",
+			"parameters": [],
+			"parentId": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/global/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4d7669ea64fd4c508c57166ba4f4a8b9",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542723287744,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385819,
+			"method": "GET",
+			"modified": 1544522915320,
+			"name": "Get A Global Parameter",
+			"parameters": [],
+			"parentId": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/global/8",
+			"_type": "request"
+		},
+		{
+			"_id": "req_14c1510af3054a0a81766224815d80fe",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542726233886,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385769,
+			"method": "DELETE",
+			"modified": 1542963917316,
+			"name": "Delete A Global Parameter",
+			"parameters": [],
+			"parentId": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/global/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_135fdf0f7fa04913a30f049b9bb8c546",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"namepitchdetectionparam\": \"voilavoila2\"\n}"
+			},
+			"created": 1542814534448,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_34cab79a4a314b63943dbb5b0f45ba33",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385744,
+			"method": "PUT",
+			"modified": 1544189174958,
+			"name": "Modify A Global Parameter",
+			"parameters": [],
+			"parentId": "fld_d2619a30660e4702a8b62c7a7014e648",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/global/4/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0b9be64624bc4c5cb3995e6d418ef21c",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542722259302,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385844,
+			"method": "GET",
+			"modified": 1544521044912,
+			"name": "Get List pitchdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/pitchdetection/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_505fb7d25b154b709ac579d4be7da382",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542789785003,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385837.75,
+			"method": "GET",
+			"modified": 1544521659653,
+			"name": "Get A pitchdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/pitchdetection/8",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a7a915f7e7174dbdaea941cc781bc060",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542789786563,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385834.625,
+			"method": "DELETE",
+			"modified": 1544521060453,
+			"name": "Delete A pitchdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/pitchdetection/7",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9120c030398d4efeab285dc378ceffc6",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"voilavoila2\",\n\t\"f0_hz\" : \"999.0\",\n\t\"connard\" : \"kikou\"\n}"
+			},
+			"created": 1542789788540,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_f7bba39c4a004681a7d29db2d9333f43",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385833.0625,
+			"method": "POST",
+			"modified": 1544521476912,
+			"name": "Create New pitchdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/pitchdetection",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0eb47d4a0e804ad0bfecf3e1373d5377",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"f0_hz\" : \"33.433\",\n\t\"name\" : \"default\"\n}"
+			},
+			"created": 1542796384849,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4a19ef2d14a0448b9f479924625da987",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385833.8438,
+			"method": "PUT",
+			"modified": 1544521529443,
+			"name": "Modify A pitchdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_764ea38d0f804a968bbe9a3299eb4222",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/pitchdetection/8",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6676f9cbbbb54b50939f17bbea5e08c4",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542722297693,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385831.5,
+			"method": "GET",
+			"modified": 1544521800536,
+			"name": "Get List stepdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/stepdetection/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e90a7fa477d74f83840e017291e832d5",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"default\"\n}"
+			},
+			"created": 1542793218510,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7ef68635514f4506b2c257edc31c1cd9",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385828.375,
+			"method": "POST",
+			"modified": 1542895947270,
+			"name": "Create New stepdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/stepdetection/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6a6aff1059e34be2b9f2067f54bc9595",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542793220714,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385829.9375,
+			"method": "DELETE",
+			"modified": 1542814324307,
+			"name": "Delete A stepdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/stepdetection/5",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b76b8d11edf849ac9710d63cbea49d0b",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542793222948,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385830.7188,
+			"method": "GET",
+			"modified": 1542796335884,
+			"name": "Get A stepdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/stepdetection/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9be4341411704a4298a29c67e861a62a",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\" : \"roupuuu\" , \n\t\"ThresholdEnergyOFF_dB\": \"40.0\"\n}"
+			},
+			"created": 1542814325693,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_341ddb57fd2a4ee8b56222ac6adfda3d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385829.1562,
+			"method": "PUT",
+			"modified": 1544196040107,
+			"name": "Modify A stepdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_951c0960e6d249289d10cb0ff5e8fe54",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/stepdetection/1/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ab3d12e83da8495c89ea63f1b0cc9d7d",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542722299264,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385825.25,
+			"method": "GET",
+			"modified": 1544178704078,
+			"name": "Get List rythmdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/rythmdetection/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_534e7b214c7e4393a37fd08607925e97",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542793225391,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385822.125,
+			"method": "GET",
+			"modified": 1542796340452,
+			"name": "Get A rythmdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/rythmdetection/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_923de8efe2024c588b2f4f944285ee78",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542793227527,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385820.5625,
+			"method": "DELETE",
+			"modified": 1542796339752,
+			"name": "Delete A rythmdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/rythmdetection/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_66ea62cbeacc4a458604609c8a13f0a5",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1542793229557,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1542636385819.7812,
+			"method": "POST",
+			"modified": 1542896188019,
+			"name": "Create New rythmdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/rythmdetection/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_af0bf8f7e3ab47b4bb6571eabf5171d9",
+			"authentication": {
+				"prefix": "Bearer",
+				"token": "{{ bearer  }}",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"OneRestEightBeat\": \"false\"\n}"
+			},
+			"created": 1542814447179,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_47d365c89e454af5bf093d8bd8ac2a8b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542636385820.1719,
+			"method": "PUT",
+			"modified": 1542814504378,
+			"name": "Modify A rythmdetection Parameters",
+			"parameters": [],
+			"parentId": "fld_e85760d68a1248e49ff187b4a84237f7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/parameter/rythmdetection/1/",
+			"_type": "request"
+		}
+	]
+}
